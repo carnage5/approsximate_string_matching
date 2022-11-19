@@ -34,7 +34,9 @@ void disp(vector<vector<int>> &p, string &a, string &b, int i, int j, string &so
 int main()
 {
 	string a, b;
+	cout<<"enter string A: ";
 	getline(cin,a);
+	cout<<"enter string B: ";
 	getline(cin,b);
 	int m = a.length();
 	int n = b.length();
@@ -79,6 +81,7 @@ int main()
 	string sol1 = "";
 	string sol2 = "";
 	disp(p, a, b, m, n, sol1, sol2);
+	cout<<"optimally aligned strings"<<endl;
 	cout << sol1 << endl;
 	cout << sol2 << endl;
 	return 0;

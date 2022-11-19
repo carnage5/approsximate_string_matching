@@ -29,6 +29,7 @@ void lev_dist(string &a, string &b)
 int main()
 {
 	string a, b;
+	cout<<"enter 2 strings "<<endl;
 	cin >> a >> b;
 	lev_dist(a, b);
 	return 0;
